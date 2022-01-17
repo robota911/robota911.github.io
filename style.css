@@ -1,15 +1,18 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #F5F7FA;
+    /* background-color: #F5F7FA; */
+    background-color: silver;
 }
 
 /*main container*/
 .main-container { 
     display: flex;
     flex-direction: row-reverse;
-    width: 1200px;
+    /* width: 1200px; */
+    width: 878px;
     background-color: white;
     margin: 40px auto;
+    border-radius: 8px;
 } 
 /*my social networks*/
 .my-social-networks{
@@ -39,7 +42,9 @@ i {
 
 /*my content*/
 .my-content{
-padding: 100px 90px;
+/* padding: 100px 90px; */
+padding: 100px 20px;
+
 }
 .my-content-title{
     font-style: normal;
@@ -162,11 +167,13 @@ margin: 0 0 25px 0;
     background-color: #1E2939;
     width: 500px;
 /*  padding: 40px 0; */
-    
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
 .foto{
-    width: 100%; 
+    width: 100%;
+    border-top-left-radius: 100%; 
 }
 
 .my-contacts,
@@ -187,17 +194,19 @@ margin: 0 0 25px 0;
 /*contacts section*/
 .my-contacts-type{
     font-weight: bold;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 24px;
     color: white;  
     margin-right: 10px;
 }
 .my-contacts-link{
     font-weight: normal;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 24px;
-    color: #565E6A;  
+    /* color: #565E6A;   */
+    color: white;
     font-style: normal;
+    text-decoration: none;
 }
 
 /*section skills list */
@@ -215,4 +224,31 @@ margin: 0 0 25px 0;
     line-height: 24px;  
     font-style: normal;
     color: #FFFFFF;
+}
+/* Лінія прогресу */
+
+.progres, .progres1, .progres2{
+    width: 66px;
+    height: 10px;
+    position: relative;
+    top: -12px;
+    left: 95px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: -5px 0px;
+}
+.progres1{
+    width: 52px;
+}
+.progres2{
+    width: 24px;
+}
+.square{
+    width: 10px;
+    height: 10px;
+    background: white;
+    top: -18px;
+    left: 95px;
 }
