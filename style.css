@@ -1,4 +1,7 @@
 body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
     /* background-color: #F5F7FA; */
     background-color: silver;
@@ -179,7 +182,7 @@ margin: 0 0 25px 0;
 .my-contacts,
 .tech-skills-section,
 .soft-skills-section {
-    margin: 50px 0 0 40px;
+    margin: 50px 0 0 10px;
 }
 
 .sidebar-title {
