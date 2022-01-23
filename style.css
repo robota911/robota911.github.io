@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     /* width: 1200px; */
-    width: 878px;
+    width: 787px;
     background-color: white;
     margin: 40px auto;
     border-radius: 8px;
@@ -32,6 +32,9 @@ i {
 }
 .fa-facebook:hover {
     color: #1877F2;
+}
+.fa-linkedin:hover {
+    color: #0e76a8;
 }
 .fa-telegram:hover{
     color: #0088cc;
@@ -182,7 +185,7 @@ margin: 0 0 25px 0;
 .my-contacts,
 .tech-skills-section,
 .soft-skills-section {
-    margin: 50px 0 0 10px;
+    margin: 50px 0 0 30px;
 }
 
 .sidebar-title {
