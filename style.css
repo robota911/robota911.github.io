@@ -1,263 +1,256 @@
+@import "reset.css";
+
 body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    /* background-color: #F5F7FA; */
-    background-color: silver;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  /* background-color: #F5F7FA; */
+  background-color: silver;
 }
 
 /*main container*/
-.main-container { 
-    display: flex;
-    flex-direction: row-reverse;
-    /* width: 1200px; */
-    width: 787px;
-    background-color: white;
-    margin: 40px auto;
-    border-radius: 8px;
-} 
+.main-container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 787px;
+  background-color: white;
+  margin: 40px auto;
+  border-radius: 8px;
+}
 /*my social networks*/
-.my-social-networks{
-    position: absolute;
-    font-size: 20px;
-    padding-right: 20px;
-    
+.my-social-networks {
+  position: absolute;
+  font-size: 20px;
+  padding-right: 20px;
 }
 i {
-    color: #000000;
+  color: #000000;
 }
-.fa-instagram:hover{
-    color: #E1306C;
+.fa-instagram:hover {
+  color: #e1306c;
 }
 .fa-facebook:hover {
-    color: #1877F2;
+  color: #1877f2;
 }
 .fa-linkedin:hover {
-    color: #0e76a8;
+  color: #0e76a8;
 }
-.fa-telegram:hover{
-    color: #0088cc;
+.fa-telegram:hover {
+  color: #0088cc;
 }
-.fa-viber:hover{
-    color: #665CAC;
+.fa-viber:hover {
+  color: #665cac;
 }
-.fa-youtube:hover{
-    color: #c4302b;
+.fa-youtube:hover {
+  color: #c4302b;
 }
 
 /*my content*/
-.my-content{
-/* padding: 100px 90px; */
-padding: 100px 20px;
-
+.my-content {
+  width: 80%;
+  padding: 100px 20px;
 }
-.my-content-title{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 27px;
-    color: #000000; 
-    margin-bottom: 10px;
+.my-content-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
 }
 
 /*about my section*/
-.about-me-section{
-    margin: 0 0 40px 0;  
+.about-me-section {
+  margin: 0 0 40px 0;
 }
-.about-me-profession{
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 17px;
-color: #000000;
-margin: 0 0 20px 0;
-}
-
-.about-me-name{
-    
-    font-style: normal;
-font-weight: bold;
-font-size: 45px;
-line-height: 55px;
-color: #000000;
-margin: 0 0 25px 0;
+.about-me-profession {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0 0 20px 0;
 }
 
-.about-me-description{
-    width: 400px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
-    text-align: justify;  
+.about-me-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin: 0 0 25px 0;
+}
+
+.about-me-description {
+  /* width: 400px; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  text-align: justify;
 }
 
 /*my project section*/
-.my-project-section{
-    padding: 0 0 50px 0;
-
+.my-project-section {
+  padding: 0 0 50px 0;
 }
-.my-project-list{
-    padding: 0 0 0 17px;
+.my-project-list {
+  padding: 0 0 0 17px;
 }
-.my-project-item{
-    color: #000000;
-    font-weight: bold;  
+.my-project-item {
+  color: #000000;
+  font-weight: bold;
 }
-.my-project-link{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
+.my-project-link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
 }
-.my-project-text{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
-    margin-left: 5px; 
+.my-project-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-left: 5px;
 }
-.my-project-bracket{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 24px;
-    color: #000000;
+.my-project-bracket {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
 }
 /*my work xperience*/
-.my-work-xperience-company{
-    color:#FB6D3A;
+.my-work-xperience-company {
+  color: #fb6d3a;
 }
 
-.my-work-xperience-position{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 0 0 10px 0;
+.my-work-xperience-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 0 0 10px 0;
 }
-.my-work-xperience-period{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
-    color:#a8a8a8;
-    margin-bottom: 0 0 10px 0;
+.my-work-xperience-period {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 0 0 10px 0;
 }
-.my-work-xperience-divider{
-    color: #000000;
+.my-work-xperience-divider {
+  color: #000000;
 }
-.my-work-xperience-duties{
-    padding: 0 0 0 18px;
+.my-work-xperience-duties {
+  padding: 0 0 0 18px;
 }
-.my-work-xperience-duti{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
-    color:#595959;
-    margin: 0 0 15px 0 ;
+.my-work-xperience-duti {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #595959;
+  margin: 0 0 15px 0;
 }
-.my-work-xperience-company-block{
-    margin: 0 0 15px 0 ;
+.my-work-xperience-company-block {
+  margin: 0 0 15px 0;
 }
-
-
-
 
 /*sidebar section*/
 
 .sidebar-section {
-    background-color: #1E2939;
-    width: 500px;
-/*  padding: 40px 0; */
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
+  background-color: #1e2939;
+  width: 500px;
+  /*  padding: 40px 0; */
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
-.foto{
-    width: 97%;
-    border-top-left-radius: 8px;
-    border: 5px solid grey; 
+.foto {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border: 5px solid grey;
 }
 
 .my-contacts,
 .tech-skills-section,
 .soft-skills-section {
-    margin: 50px 0 0 30px;
+  margin: 50px 0 0 30px;
 }
 
 .sidebar-title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 27px;
-    color: white;
-    margin-bottom: 10px;
-
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: white;
+  margin-bottom: 10px;
 }
 /*contacts section*/
-.my-contacts-type{
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 24px;
-    color: white;  
-    margin-right: 10px;
+.my-contacts-type {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  margin-right: 10px;
 }
-.my-contacts-link{
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    /* color: #565E6A;   */
-    color: white;
-    font-style: normal;
-    text-decoration: none;
+.my-contacts-link {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  /* color: #565E6A;   */
+  color: white;
+  font-style: normal;
+  text-decoration: none;
 }
 
 /*section skills list */
 .skills-section-list {
-    margin: 0 0 15px 0 0;
-    
-
+  margin: 0 0 15px 0 0;
 }
-.skills-section-item{
-   color:#FB6D3A ; 
+.skills-section-item {
+  color: #fb6d3a;
 }
-.skills-section-item-ntxt{
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;  
-    font-style: normal;
-    color: #FFFFFF;
+.skills-section-item-ntxt {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  font-style: normal;
+  color: #ffffff;
 }
 /* Лінія прогресу */
 
-.progres, .progres1, .progres2{
-    width: 66px;
-    height: 10px;
-    position: relative;
-    top: -12px;
-    left: 95px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    margin: -5px 0px;
+.progres,
+.progres1,
+.progres2 {
+  width: 66px;
+  height: 10px;
+  position: relative;
+  top: -12px;
+  left: 95px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: -5px 0px;
 }
-.progres1{
-    width: 52px;
+.progres1 {
+  width: 52px;
 }
-.progres2{
-    width: 24px;
+.progres2 {
+  width: 24px;
 }
-.square{
-    width: 10px;
-    height: 10px;
-    background: white;
-    top: -18px;
-    left: 95px;
+.square {
+  width: 10px;
+  height: 10px;
+  background: white;
+  top: -18px;
+  left: 95px;
 }
