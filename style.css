@@ -13,16 +13,18 @@ body {
 .main-container {
   display: flex;
   flex-direction: row-reverse;
-  width: 787px;
+  width: 1200px;
   background-color: white;
   margin: 40px auto;
   border-radius: 8px;
 }
 /*my social networks*/
 .my-social-networks {
-  position: absolute;
-  font-size: 20px;
-  padding-right: 20px;
+    position: absolute;
+    font-size: 40px;
+    padding-right: 20px;
+    /* top: 20px; */
+    margin-top: 20px;
 }
 i {
   color: #000000;
@@ -246,6 +248,7 @@ i {
 }
 .progres2 {
   width: 24px;
+  margin-bottom: 50px;
 }
 .square {
   width: 10px;

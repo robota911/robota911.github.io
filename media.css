@@ -1,31 +1,41 @@
 @media screen and (max-width: 1200px) and (min-width: 769px) {
-  body {
-    background-color: #e1306c;
+ 
+  .main-container{
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 0px;
+    padding: 5px;
+  }
+  .sidebar-section {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .foto {
+    border-top-left-radius: 0px;
   }
 }
 
 @media screen and (max-width: 768px) and (min-width: 426px) {
-  body {
-    background-color: blue;
-  }
-
+ 
   .main-container {
+    border-radius: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin: 10px;
+    margin: 0 auto;
+    padding: 5px;
   }
   .my-social-networks {
     position: relative;
     top: 30px;
-    font-size: 60px;
+    font-size: 70px;
   }
 
   .sidebar-section {
     width: 100%;
     border-top-left-radius: 0px;
-    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 0px;
   }
   .foto {
     width: 100%;
@@ -35,10 +45,7 @@
 }
 
 @media screen and (max-width: 425px) and (min-width: 320px) {
-  body {
-    background-color: green;
-  }
-
+  
   .main-container {
     border-radius: 0px;
     display: flex;
@@ -46,13 +53,13 @@
     align-items: center;
     width: 100%;
     margin: 0px auto;
-    padding: 10px;
+    padding: 5px;
   }
 
   .my-social-networks {
     position: relative;
     top: 30px;
-    font-size: 40px;
+    font-size: 70px;
   }
 
   .sidebar-section {
