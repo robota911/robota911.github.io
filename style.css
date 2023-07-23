@@ -13,9 +13,10 @@ body {
 .main-container {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  width: 800px;
   background-color: white;
   margin: 40px auto;
+  padding: 15px;
   border-radius: 8px;
 }
 /*my social networks*/
@@ -168,7 +169,8 @@ i {
 /*sidebar section*/
 
 .sidebar-section {
-  background-color: #1e2939;
+  /* background-color: #1e2939; */
+  background-color: #b7b7b5;
   width: 500px;
   /*  padding: 40px 0; */
   border-top-left-radius: 8px;
@@ -192,7 +194,7 @@ i {
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
-  color: white;
+  /* color: white; */
   margin-bottom: 10px;
 }
 /*contacts section*/
@@ -200,15 +202,12 @@ i {
   font-weight: bold;
   font-size: 20px;
   line-height: 24px;
-  color: white;
   margin-right: 10px;
 }
 .my-contacts-link {
   font-weight: normal;
   font-size: 20px;
   line-height: 24px;
-  /* color: #565E6A;   */
-  color: white;
   font-style: normal;
   text-decoration: none;
 }
@@ -217,15 +216,14 @@ i {
 .skills-section-list {
   margin: 0 0 15px 0 0;
 }
-.skills-section-item {
+/* .skills-section-item {
   color: #fb6d3a;
-}
+} */
 .skills-section-item-ntxt {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   font-style: normal;
-  color: #ffffff;
 }
 /* Лінія прогресу */
 
@@ -247,13 +245,13 @@ i {
   width: 52px;
 }
 .progres2 {
-  width: 24px;
+  width: 38px;
   margin-bottom: 50px;
 }
 .square {
   width: 10px;
   height: 10px;
-  background: white;
+  background-color: #000000;
   top: -18px;
   left: 95px;
 }
